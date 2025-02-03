@@ -9,3 +9,38 @@ html, body{
     height: 100%;
     width: 100%;
 }
+#main{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-color: #191919;
+    color: #fff;
+}
+#input{
+ display: flex;
+ /* flex-direction: column; */
+ /* align-items: center; */
+ justify-content: center;
+    width: 50%;
+    height: 60%;
+    background-color: rgb(2, 18, 33);
+    padding: 30px;
+    border-radius: 20px;
+   
+}
+#input label{
+    font-size: 20px;
+    font-family: 600;
+    padding: 10px;
+}
+#input label input[type='text']{
+    background-color: rgb(28, 28, 27);
+    color: #fff;
+}
+#input label input{
+    margin-left: 10px;
+}
