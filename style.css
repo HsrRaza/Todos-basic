@@ -9,38 +9,83 @@ html, body{
     height: 100%;
     width: 100%;
 }
-#main{
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    height: 100%;
-    width: 100%;
-    background-color: #191919;
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #070606;
+
+}
+
+#container{
+    text-align: center;
+    width: 50%;
+    padding: 20px;
+    background-color: #2b2a2a;
+    border-radius: 12px;
+}
+#container h1{
+    font-size: 25px;
     color: #fff;
 }
 #input{
- display: flex;
- /* flex-direction: column; */
- /* align-items: center; */
- justify-content: center;
-    width: 50%;
-    height: 60%;
-    background-color: rgb(2, 18, 33);
-    padding: 30px;
-    border-radius: 20px;
-   
+    margin: 10px;
 }
-#input label{
-    font-size: 20px;
-    font-family: 600;
+#todo-input{
+    margin-right: 10px;
     padding: 10px;
+    border-radius: 8px;
+    border: none;
+    /* color: #fff; */
 }
-#input label input[type='text']{
-    background-color: rgb(28, 28, 27);
+#todo-input[type="text"]{
+    background-color: grey;
+    color: #000;
+    outline: none;
+}
+#todo-input::placeholder{
+    color: #000;
+}
+
+#add{
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color: rgb(5, 100, 129);
     color: #fff;
 }
-#input label input{
-    margin-left: 10px;
+
+ul{
+   left: 20px;
+    /* width: 70%; */
+    
+    margin: 10px 135px;
 }
+ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 6px;
+    border-radius: 10px;
+    background-color: grey;
+    list-style: none;
+    /* padding: 10px; /*/
+    margin-top: 10px;
+
+    
+}
+
+ul li button{
+    padding: 3px 10px;
+    background-color: rgb(7, 7, 7);
+    color: #fff;
+    border-radius: 10px;
+}
+
+
+
+
+
+
